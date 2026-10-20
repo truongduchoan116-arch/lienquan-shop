@@ -26,7 +26,7 @@ SITE = {
 # 2. THƯƠNG HIỆU SHOP
 # ---------------------------------------------------------------------
 SHOP = {
-    "name": "SHOP LIÊN QUÂN",            # TODO: tên shop thật
+    "name": "DỊCH VỤ LIÊN QUÂN",            # TODO: tên shop thật
     "tagline": "Hỗ trợ game",
     "description": (
         "Kênh thông tin của shop: xem danh sách tài khoản, được tư vấn và liên hệ "
@@ -42,7 +42,7 @@ SHOP = {
         "electric": "#38bdf8",   # xanh điện
         "gold": "#f5c542",       # vàng gold
     },
-        # xoá dòng này khi đã điền thông tin thật
+       
 }
 
 # ---------------------------------------------------------------------
@@ -61,7 +61,7 @@ CONTACT = {
 # 4. LIÊN KẾT NỔI BẬT  (tự ẩn nếu chưa có URL)
 # ---------------------------------------------------------------------
 FEATURED_LINKS = [
-    {"id": "accounts", "icon": "list",   "label": "Kho tài khoản",       "description": "Xem danh sách tài khoản",   "url": "", "enabled": True},
+    {"id": "accounts", "icon": "list",   "label": "Kho tài khoản",       "description": "Xem danh sách tài khoản",   "url": "https://zalo.me/g/tneptb216", "enabled": True},
     {"id": "pricing",  "icon": "tag",    "label": "Bảng giá / sản phẩm", "description": "Giá và danh sách sản phẩm", "url": "", "enabled": True},
     {"id": "guide",    "icon": "book",   "label": "Hướng dẫn giao dịch", "description": "Quy trình từng bước",       "url": "", "enabled": True},
     {"id": "policy",   "icon": "shield", "label": "Chính sách hỗ trợ",   "description": "Điều kiện và hỗ trợ",       "url": "", "enabled": True},
@@ -90,7 +90,7 @@ SERVICES = [
 # ---------------------------------------------------------------------
 FAQ = [
     {"q": "Làm thế nào để liên hệ shop?",
-     "a": "Bạn dùng các nút trong mục Liên hệ (Messenger, Facebook hoặc Email). Nút nào chưa hiện nghĩa là shop chưa công bố kênh đó."},
+     "a": "Bạn dùng các nút trong mục Liên hệ (Messenger, Facebook hoặc Email),
     {"q": "Xem danh sách sản phẩm ở đâu?",
      "a": "Nếu shop đã công bố kho tài khoản hoặc bảng giá thì sẽ có nút trong mục Liên kết nổi bật. Nếu chưa thấy, hãy liên hệ shop để được gửi danh sách."},
     {"q": "Làm thế nào để kiểm tra thông tin trước khi giao dịch?",
