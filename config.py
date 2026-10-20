@@ -54,7 +54,7 @@ CONTACT = {
     "facebook_url":  {"enabled": True, "url": "https://www.facebook.com/hoancubu100cm?locale=vi_VN"},   # trang hoặc trang cá nhân
     "youtube_url":   {"enabled": True, "url": "https://www.youtube.com/@Gocnhinlienquan1"},
     "tiktok_url":    {"enabled": True, "url": "https://www.tiktok.com/@_dhoangaming_"},
-    "email":         {"enabled": True, "url": "truongduchoan116@gmail.com"},   # điền địa chỉ email, ví dụ ban@gmail.com
+    "email":         {"enabled": True, "url": "mailto:truongduchoan116@gmail.com"},   # điền địa chỉ email, ví dụ ban@gmail.com
 }
 
 # ---------------------------------------------------------------------
@@ -90,7 +90,7 @@ SERVICES = [
 # ---------------------------------------------------------------------
 FAQ = [
     {"q": "Làm thế nào để liên hệ shop?",
-     "a": "Bạn dùng các nút trong mục Liên hệ (Messenger, Facebook hoặc Email)",
+     "a": "Bạn dùng các nút trong mục Liên hệ (Messenger, Facebook hoặc Email)"},
     {"q": "Xem danh sách sản phẩm ở đâu?",
      "a": "Nếu shop đã công bố kho tài khoản hoặc bảng giá thì sẽ có nút trong mục Liên kết nổi bật. Nếu chưa thấy, hãy liên hệ shop để được gửi danh sách."},
     {"q": "Làm thế nào để kiểm tra thông tin trước khi giao dịch?",
