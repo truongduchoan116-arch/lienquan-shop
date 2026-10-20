@@ -33,7 +33,7 @@ SHOP = {
         "trực tiếp để hỏi trước khi giao dịch."
     ),
     "owner": "Trương Đức Hoan",                         # tên người bán, để trống nếu không công khai
-    "logo": "",                          # "assets/logo.png" (đặt file trong static/assets/)
+    "logo": "logo.jpg",                          # "assets/logo.png" (đặt file trong static/assets/)
     "background_image": "",              # "assets/bg.jpg" (tuỳ chọn)
     # Màu thương hiệu (mã hex 6 ký tự)
     "colors": {
