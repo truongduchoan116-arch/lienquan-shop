@@ -17,7 +17,7 @@ SITE = {
     # Địa chỉ công khai của website, ví dụ "https://ten-ban.github.io/lienquan-shop".
     # Khi deploy bằng GitHub Actions thì tự lấy, không cần điền.
     # Cần có địa chỉ này thì mới tạo được mã QR, canonical và ảnh chia sẻ.
-    "url": "",
+    "url": "https://hoan.github.io/lienquan-shop",
     "default_theme": "dark",  # "dark" | "light"
     "lang": "vi",
 }
@@ -27,12 +27,12 @@ SITE = {
 # ---------------------------------------------------------------------
 SHOP = {
     "name": "SHOP LIÊN QUÂN",            # TODO: tên shop thật
-    "tagline": "Gaming Account Hub",
+    "tagline": "Hỗ trợ game",
     "description": (
         "Kênh thông tin của shop: xem danh sách tài khoản, được tư vấn và liên hệ "
         "trực tiếp để hỏi trước khi giao dịch."
     ),
-    "owner": "",                         # tên người bán, để trống nếu không công khai
+    "owner": "Trương Đức Hoan",                         # tên người bán, để trống nếu không công khai
     "logo": "",                          # "assets/logo.png" (đặt file trong static/assets/)
     "background_image": "",              # "assets/bg.jpg" (tuỳ chọn)
     # Màu thương hiệu (mã hex 6 ký tự)
@@ -42,7 +42,7 @@ SHOP = {
         "electric": "#38bdf8",   # xanh điện
         "gold": "#f5c542",       # vàng gold
     },
-    "example": True,             # xoá dòng này khi đã điền thông tin thật
+        # xoá dòng này khi đã điền thông tin thật
 }
 
 # ---------------------------------------------------------------------
@@ -51,10 +51,10 @@ SHOP = {
 # ---------------------------------------------------------------------
 CONTACT = {
     "messenger_url": {"enabled": True, "url": ""},   # ví dụ https://m.me/ten.trang
-    "facebook_url":  {"enabled": True, "url": ""},   # trang hoặc trang cá nhân
-    "youtube_url":   {"enabled": True, "url": ""},
-    "tiktok_url":    {"enabled": True, "url": ""},
-    "email":         {"enabled": True, "url": ""},   # điền địa chỉ email, ví dụ ban@gmail.com
+    "facebook_url":  {"enabled": True, "url": "https://www.facebook.com/hoancubu100cm?locale=vi_VN"},   # trang hoặc trang cá nhân
+    "youtube_url":   {"enabled": True, "url": "https://www.youtube.com/@Gocnhinlienquan1"},
+    "tiktok_url":    {"enabled": True, "url": "https://www.tiktok.com/@_dhoangaming_"},
+    "email":         {"enabled": True, "url": "truongduchoan116@gmail.com"},   # điền địa chỉ email, ví dụ ban@gmail.com
 }
 
 # ---------------------------------------------------------------------
@@ -81,7 +81,7 @@ SERVICES = [
     {"icon": "search",    "name": "Tư vấn chọn tài khoản",      "description": "Trao đổi nhu cầu để được gợi ý tài khoản phù hợp.",   "target": "contact",  "action": "Nhờ tư vấn"},
     {"icon": "headset",   "name": "Hỗ trợ trước giao dịch",     "description": "Hỏi mọi thông tin cần biết trước khi quyết định.",     "target": "contact",  "action": "Liên hệ hỏi"},
     {"icon": "book",      "name": "Hướng dẫn giao dịch",        "description": "Các bước giao dịch do shop công bố.",                  "target": "guide",    "action": "Xem hướng dẫn"},
-    {"icon": "shield",    "name": "Hỗ trợ sau giao dịch",       "description": "Theo chính sách thực tế mà shop công bố.",             "target": "policy",   "action": "Xem chính sách"},
+    {"icon": "shield",    "name": "Làm chung sức liên quân",       "description": "Theo chính sách thực tế mà shop công bố.",             "target": "policy",   "action": "Xem chính sách"},
     {"icon": "help",      "name": "Câu hỏi thường gặp",         "description": "Giải đáp nhanh những thắc mắc phổ biến.",              "target": "faq",      "action": "Xem FAQ"},
 ]
 
@@ -103,7 +103,7 @@ FAQ = [
 # 7. FOOTER
 # ---------------------------------------------------------------------
 FOOTER = {
-    "text": "",   # dòng chữ thêm ở chân trang (tuỳ chọn)
+    "text": "Cảm ơn bạn đã dùng dịch vụ của tôi",   # dòng chữ thêm ở chân trang (tuỳ chọn)
     "disclaimer": "Đây là trang độc lập của shop, không phải website chính thức của Garena. "
                   "Liên Quân Mobile là thương hiệu của chủ sở hữu tương ứng.",
     "policy_url": "",   # liên kết chính sách ở chân trang (tuỳ chọn)
