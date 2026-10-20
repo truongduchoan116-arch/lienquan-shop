@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ lang }}" data-theme="{{ theme }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 | {{ shop.name }}</title>
+  <meta name="robots" content="noindex">
+  <style>:root{--c-primary:{{ shop.colors.primary }};--c-secondary:{{ shop.colors.secondary }};--c-electric:{{ shop.colors.electric }};--c-gold:{{ shop.colors.gold }};}</style>
+  <link rel="icon" href="{{ root }}favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ root }}css/style.css">
+</head>
+<body>
+  <main id="main" class="notfound">
+    <div class="container">
+      <p class="code">404</p>
+      <h1>Không tìm thấy trang</h1>
+      <p class="lead">Trang bạn tìm không tồn tại hoặc đã được chuyển.</p>
+      <a class="btn btn-primary" href="{{ root }}">Về trang chủ</a>
+    </div>
+  </main>
+</body>
+</html>
