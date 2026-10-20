@@ -90,7 +90,7 @@ SERVICES = [
 # ---------------------------------------------------------------------
 FAQ = [
     {"q": "Làm thế nào để liên hệ shop?",
-     "a": "Bạn dùng các nút trong mục Liên hệ (Messenger, Facebook hoặc Email),
+     "a": "Bạn dùng các nút trong mục Liên hệ (Messenger, Facebook hoặc Email)",
     {"q": "Xem danh sách sản phẩm ở đâu?",
      "a": "Nếu shop đã công bố kho tài khoản hoặc bảng giá thì sẽ có nút trong mục Liên kết nổi bật. Nếu chưa thấy, hãy liên hệ shop để được gửi danh sách."},
     {"q": "Làm thế nào để kiểm tra thông tin trước khi giao dịch?",
